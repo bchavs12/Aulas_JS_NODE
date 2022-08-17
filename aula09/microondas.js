@@ -1,0 +1,3 @@
+function microondas(opcao, tempo) {
+    
+}
