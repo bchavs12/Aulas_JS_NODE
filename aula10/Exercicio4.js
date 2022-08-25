@@ -1,0 +1,1 @@
+// Simulação Array.join()
