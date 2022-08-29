@@ -3,6 +3,6 @@
 function converter() {
     let nome = ' eu sou programador ';
     console.log(nome.toUpperCase());
-} 
+};
 
-converter()
+converter();
