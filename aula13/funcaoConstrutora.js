@@ -6,7 +6,7 @@
 */
 
 // Função constrututora 1
-function criarUsuario(nome, idade, rg) {
+/*function criarUsuario(nome, idade, rg) {
     // Novo objeto 
     return {
         nome,
@@ -14,14 +14,15 @@ function criarUsuario(nome, idade, rg) {
         rg
     }
 }
+*/
 
 // Função de execução
-criarUsuario('Fulano 1', 22, '0.000.000')
+//criarUsuario('Fulano 1', 22, '0.000.000')
 
 // Funções expressas
 
-let usuario1 = criarUsuario('Fulano 1', 22, '0.000.000');
-let usuario2 = criarUsuario('Bruno', 24, '1.000.000.000');
+//let usuario1 = criarUsuario('Fulano 1', 22, '0.000.000');
+//let usuario2 = criarUsuario('Bruno', 24, '1.000.000.000');
 
 //console.log(usuario1, usuario2);
 
@@ -35,6 +36,7 @@ function Usuario(nome, idade, rg) {
     // no momento inicial da função construtora
     // this ele é um objeto vazio {}
 
+    //Propriedades
     this.nome = nome
     this.idade = idade
     this.rg = rg
@@ -48,7 +50,11 @@ function Usuario(nome, idade, rg) {
     }
 }
 
-
+// acessa propriedades de um objeto através de objeto.propriedade
+const usuario4 = new Usuario('beltrano', 18, '5.000.000');
+usuario4.novoContato('Bruno', 996303173);
+usuario4.novoContato('Lucas', 995911442);
+console.table(usuario4.contatos);
 
 // new --> novo --> Criando um novo Objeto através da função construtora
 

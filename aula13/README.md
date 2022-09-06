@@ -120,3 +120,7 @@ let meuCarro = new Carro('Ford', 'Falcon');
 - Quando executamos o método NEW para criar um objeto, o que ele retorna é uma instância, ou seja, na variável meuCarro teremos uma instância do objeto Carro armazenada. Usando a mesma função construtora, podemos instanciar quantos carros quisermos.
 
 let outroCarro = new Carro('Chevrolet', 'Corvette');
+
+# 30/08/22
+- Estavá vendo sobre criar novos dados dentro de um Objeto em Funções construtoras
+- ainda revisar todo o conteúdo

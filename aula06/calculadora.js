@@ -1,4 +1,4 @@
-/*Adição
+Adição
 function soma(a, b) {
     return a + b;
 }
@@ -29,7 +29,7 @@ console.log("---- Teste de Operações / Calculadora ----");
 
 console.log(soma(15) + subtracao(12, 16));
 
-Definicao de um quadrado*/
+// Definicao de um quadrado
 
 
 

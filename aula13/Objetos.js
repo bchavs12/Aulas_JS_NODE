@@ -15,7 +15,7 @@
 
 // {} --> Objeto Vazio --> Por não possuir propriedades nem metódos
 // nome_propriedade:valor_propriedade --> separador pela virgula
-// nome_mwtódo seguido de () e {}
+// nome_metódo seguido de () e {}
 
 // Objeto
 let profile = {
@@ -55,12 +55,11 @@ let profile = {
 */
 };
 
-profile.listarContatos();
+
 profile.adicionarContato('996303173', 'email2@email2.com');
-profile.listarContatos();
 profile.adicionarContato('995911442', 'email3@email3.com');
 profile.listarContatos();
 
  // Chamar o metódo dentro do objeto;
-//profile.listarContatos();
+// profile.listarContatos();
 // profile.adicionarContato()
