@@ -16,13 +16,13 @@ texto.substring(0, 5);
 */
 
 // trim
-// console.log(texto.trim());
+console.log(texto.trim());
 
 // split
 
-//console.log(texto.split(' '))
+console.log(texto.split(' '))
 
 // replace
 
-// let textoNovo = texto.replace('programador', 'Desenvolvedor');
+ let textoNovo = texto.replace('programador', 'Desenvolvedor');
 console.log(textoNovo);

@@ -14,7 +14,7 @@ console.log("Fatorial = " + fatorial);
 */
 
 function soletrar(texto) {
-    console.log(texto.split(" "));
+    console.log(texto.split(""));
 };
 
 soletrar("digital-house");

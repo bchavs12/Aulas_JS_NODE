@@ -14,6 +14,6 @@ fileSystem --> Possui metódos que facilitam a manipulação de arquivos
 const fs = require('fs');
 
 // Esse método cria um arquivo no caminho que você especificar
-fs.writeFileSync('./meuarquivo.txt', 'Oi meu nome e Bruno Chaves', {
+fs.writeFileSync('./meuarquivo.txt', 'Good Morning, World', {
     encoding:'utf-8'
 })

@@ -20,12 +20,13 @@
 // Objeto
 let profile = {
     // Propriedades
-    nome: 'Usuário Teste',
-    apelido: 'teste 123',
+    nome: '',
+    apelido: '',
     contatos: [
         {
-            telefone: '11-1111-1111',
-            email: 'email@email.com'
+            nome: '',
+            telefone: '',
+            email: ''
         }
     ],
     // metodo --> ação dentro do Objeto
@@ -35,8 +36,9 @@ let profile = {
         console.table(this.contatos);
     },
     // Create
-    adicionarContato(telefone, email) {
+    adicionarContato(nome, telefone, email) {
         const novoContato = {
+            nome,
             telefone,
             email
         };
@@ -56,8 +58,8 @@ let profile = {
 };
 
 
-profile.adicionarContato('996303173', 'email2@email2.com');
-profile.adicionarContato('995911442', 'email3@email3.com');
+profile.adicionarContato('Bruno', '996303173', 'email2@email2.com');
+profile.adicionarContato('Bruna','995911442', 'email3@email3.com');
 profile.listarContatos();
 
  // Chamar o metódo dentro do objeto;

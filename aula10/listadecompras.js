@@ -32,4 +32,3 @@ const separadorArray = produtos.join(" - ");
 
 console.log('metodo join junta os elementos de um array usando um separador que especificamos');
 console.log(separadorArray);
-console.table(produtos);

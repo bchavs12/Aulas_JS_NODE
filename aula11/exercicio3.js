@@ -1,5 +1,10 @@
 // [] Crie uma tabuada utilizando o for. Dica: Para essa tarefa você irá precisar utilizar dois loops (for).
 
-for(let i = 0; i <= 10; i++){ 
-     console.table(i * 7)
-};
+function tabuada(Pnum, Snum) {
+     let soma = 0;
+     for (let i = Pnum; i <= 10; i++) {
+     };
+     return soma;
+}
+
+console.log(tabuada(1, 1));
